@@ -53,6 +53,12 @@ Probably need an RP2040, easiest to use a Pi Pico.
   - basically like an Azeron Cyborg II, using extremely small switches, and directionality on _every finger_, instead of just a single press button on a flat layout
   - Specifically needing four-directional button switches on every finger PLUS press-down, which provides 5 potential actuations per finger
   - Ergonomics may suffer for this due to mechanical spacing... further prototyping required.
+- Actually on second thought, it might be a lot closer to the DataHand keyboard style
+  - resources:
+    - https://octopup.org/computer/datahand
+    - https://github.com/JesusFreke/lalboard
+  - upon some research, I feel like going with a hall-effect switch system per-direction per-finger would likely be the ideal -- and the press-down would be good as hall-effect too, but I could also get away with just a mechanical switch here if I get lazy
+  - Regardless, the bottom line is something like this would easily take a significant lot more effort and research and learning to implement than simply "ooh boy, just refactor it a little bit and it's golden!"
 
 ---
 
