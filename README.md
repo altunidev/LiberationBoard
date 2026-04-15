@@ -49,6 +49,11 @@ Probably need an RP2040, easiest to use a Pi Pico.
   - basically have the keypad near vertically mounted, and the joystick on the underside, such that my hand is tilted at a >45° angle and my thumb is on the underside to control the joystick
   - This is a very whacky idea, but would be cool to see it just to see it
 
+- Azeron Cyborg II clone layout
+  - basically like an Azeron Cyborg II, using extremely small switches, and directionality on _every finger_, instead of just a single press button on a flat layout
+  - Specifically needing four-directional button switches on every finger PLUS press-down, which provides 5 potential actuations per finger
+  - Ergonomics may suffer for this due to mechanical spacing... further prototyping required.
+
 ---
 
 ## Learning

@@ -1,10 +1,21 @@
-raw data generated from https://www.keyboard-layout-editor.com/
-can be used in https://kbfirmware.com/ to generate matrix layout
-and http://builder.swillkb.com/ to generate plate CAD
+# raw data generated from https://www.keyboard-layout-editor.com/
+# can be used in https://kbfirmware.com/ to generate matrix layout
+# and http://builder.swillkb.com/ to generate plate CAD
+# more resources here: https://docs.qmk.fm/hand_wire
+
+# Liberation Board base
 
 [{x:0.5},"Esc","1","2","3","4","5"],
 [{x:0.25,w:1.25},"Tab","Q","W","E","R","T"],
 [{x:0.25,w:1.25},"Ctrl","A","S","D","F","G"],
 [{x:0.25,w:1.25},"Shift","Z","X","C","V","B"],
 [{x:0.25,a:7,w:1.25},"","",{a:4},"Alt","Space","MOD1",{a:7,f:8,w:2,h:2},"Joystick"]
+
+# CyborgClone concept
+
+["4U\n\n\n\n\n\n\n\n\npinky","3U\n\n\n\n\n\n\n\n\nring","2U\n\n\n\n\n\n\n\n\nmiddle","1U\n\n\n\n\n\n\n\n\nindex","0U\n\n\n\n\n\n\n\n\nthumb\n(likely unused)"],
+[{a:7},"4L","3L","2L","1L","0L"],
+["4D","3D","2D","1D","0D"],
+["4R","3R","2R","1R","0R",{f:5,w:2,h:2},"Joystick"],
+[{a:4,f:3},"4P\n\n\n\n\n\n\n\n\npress",{a:7},"3P","2P","1P","0P"]
 
