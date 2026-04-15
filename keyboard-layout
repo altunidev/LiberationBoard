@@ -1,0 +1,10 @@
+raw data generated from https://www.keyboard-layout-editor.com/
+can be used in https://kbfirmware.com/ to generate matrix layout
+and http://builder.swillkb.com/ to generate plate CAD
+
+[{x:0.5},"Esc","1","2","3","4","5"],
+[{x:0.25,w:1.25},"Tab","Q","W","E","R","T"],
+[{x:0.25,w:1.25},"Ctrl","A","S","D","F","G"],
+[{x:0.25,w:1.25},"Shift","Z","X","C","V","B"],
+[{x:0.25,a:7,w:1.25},"","",{a:4},"Alt","Space","MOD1",{a:7,f:8,w:2,h:2},"Joystick"]
+
